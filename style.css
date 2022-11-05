@@ -1,0 +1,67 @@
+body >*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    position: sticky;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.Heading-container{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 60%;
+    margin: 10px 0;
+    padding: 3px;
+    display: block;
+}
+
+button {
+    font-size: x-large;
+    font-weight: bold;
+    width: 30%;
+    border: 1px;
+    padding: 3px;
+    cursor: pointer;
+    background-color: gold;
+}
+
+button :hover{
+    background-color: darkorange;
+}
+
+#description {
+    width: 70%;
+    margin: 5% auto;
+}
+
+.feature {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.icon {
+    color: darkorange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    font-size: 3rem;
+}
